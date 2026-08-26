@@ -64,7 +64,7 @@ export default function Navbar({
                   {t.appTitle}
                 </span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
-                  SIH26-26018
+                  AI Enterprise Edition
                 </span>
               </div>
               <p className="text-xs text-slate-400 hidden sm:block">

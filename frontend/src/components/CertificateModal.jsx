@@ -180,7 +180,7 @@ export default function CertificateModal({
 
           {/* Footer Timestamp */}
           <div className="text-center text-[10px] text-slate-500 pt-2">
-            Generated via BhoomiAI National Land Records Engine | SIH26-26018 | Ministry of Rural Development
+            Generated via BhoomiAI National Land Records Engine | Ministry of Rural Development
           </div>
 
         </div>

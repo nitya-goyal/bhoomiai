@@ -109,7 +109,7 @@ HTML_TEMPLATE = """
         <div>
           <h1 class="text-xl font-extrabold text-white flex items-center gap-2">
             BhoomiAI OCR Studio
-            <span class="text-[10px] uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 font-bold border border-emerald-500/30">SIH26-26018 MVP</span>
+            <span class="text-[10px] uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 font-bold border border-emerald-500/30">Standalone MVP</span>
           </h1>
           <p class="text-xs text-slate-400">Lightweight Indic Land Record Digitization & Key-Entity Extraction</p>
         </div>
@@ -226,7 +226,7 @@ HTML_TEMPLATE = """
   </main>
 
   <footer class="border-t border-slate-800 py-4 text-center text-xs text-slate-500">
-    BhoomiAI Standalone OCR MVP • Smart India Hackathon 2026 (SIH26-26018)
+    BhoomiAI Standalone OCR MVP • National Land Record Modernization Platform
   </footer>
 
   <script>

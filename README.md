@@ -1,6 +1,4 @@
 # 🏛️ BhoomiAI: Intelligent Land Record Digitization & Validation System
-### Smart India Hackathon 2026 | Problem Statement ID: **SIH26-26018**
-**Ministry of Rural Development • Department of Land Resources (DoLR)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python%203.12-blue.svg)](https://fastapi.tiangolo.com)
@@ -11,9 +9,9 @@
 ---
 
 ## 📌 Executive Summary
-Land records in India are historically fragmented across physically degraded paper registers, handwritten legacy formats, and diverse Indic regional scripts (*7/12 Extracts, Khasra, Khatauni, Jamabandi, Pattas, and Cadastral Maps*). Manual entry leads to human errors, boundary disputes, title duplications, and fraudulent double-allocations.
+Land records across various administrative regions are historically maintained in fragmented, physically degraded paper registers, handwritten legacy formats, and diverse regional scripts (*7/12 Extracts, Khasra, Khatauni, Jamabandi, Pattas, and Cadastral Maps*). Manual entry leads to human errors, boundary disputes, title duplications, and fraudulent double-allocations.
 
-**BhoomiAI** is a comprehensive, end-to-end digital governance and AI platform engineered for **SIH26-26018**. It combines **Computer Vision for archival document restoration**, **multilingual Indic OCR**, **Cadastral GIS (Bhu-Naksha) vectorization**, **multi-tier anomaly/fraud auditing**, and **cryptographic Blockchain mutation tracking** with verifiable QR-coded digital Records of Rights (e-RoR).
+**BhoomiAI** is an enterprise-grade digital governance and AI platform. It combines **Computer Vision for archival document restoration**, **multilingual Indic OCR**, **Cadastral GIS (Bhu-Naksha) vectorization**, **multi-tier anomaly/fraud auditing**, and **cryptographic Blockchain mutation tracking** with verifiable QR-coded digital Records of Rights (e-RoR).
 
 ---
 
@@ -80,8 +78,8 @@ graph TD
 | **2. Indic Multilingual OCR & KIE** | Deep key-information extraction for **7/12 (Maharashtra/Gujarat)**, **Khasra-Khatauni (UP/MP)**, **Patta/Chitta (Tamil Nadu)**, and **Jamabandi (Punjab)**. Parses Survey No, Khata No, Landowners with Aadhaar hash, multi-unit area conversions (Ha, Acre, Bigha, Guntha, Sq.m), Soil classification, Tax/Lagan, and Mortgages with visual bounding boxes. |
 | **3. Cadastral GIS (Bhu-Naksha) Explorer** | Vectorized land parcel polygons overlaid on high-resolution satellite imagery. Features plot attribute inspector, dispute heatmaps, sub-division (Hissa) split/merge simulator, and GeoJSON export. |
 | **4. Multi-Tier AI Fraud & Anomaly Center** | Automated checks: Area discrepancy (RoR vs GIS polygon area), double-allocation alerts, road buffer encroachments, and uncertified mutation gap detection. |
-| **5. Blockchain Mutation Ledger** | Immutable SHA-256 Merkle chain recording deed transfers and inheritance splits. Includes **Evaluator Tamper Simulation Mode** to demonstrate cryptographic chain breakage upon unauthorized edits. |
-| **6. Verifiable Digital e-RoR Passbook** | Downloadable official Government of India land certificate with embedded dynamic QR code verifying SHA-256 seal. |
+| **5. Blockchain Mutation Ledger** | Immutable SHA-256 Merkle chain recording deed transfers and inheritance splits. Includes **Tamper Simulation Mode** to demonstrate cryptographic chain breakage upon unauthorized edits. |
+| **6. Verifiable Digital e-RoR Passbook** | Downloadable official land certificate with embedded dynamic QR code verifying SHA-256 seal. |
 | **7. Bhoomi Mitra AI Citizen Assistant** | Conversational AI assistant supporting Hindi, English, Marathi, Tamil, Gujarati, and Telugu with voice synthesis simulation. |
 
 ---
@@ -89,7 +87,6 @@ graph TD
 ## 📂 Project Repository Structure
 
 ```
-sih/
 ├── backend/                       # Python FastAPI Backend & AI Services
 │   ├── main.py                    # REST API Entrypoint & CORS handlers
 │   ├── requirements.txt           # Python dependencies (FastAPI, Pillow, NumPy)
@@ -115,14 +112,14 @@ sih/
 │
 ├── start_platform.bat             # 1-Click launcher for full-stack platform
 ├── start_platform.ps1             # PowerShell 1-click launcher
-└── README.md                      # Project documentation & SIH pitch deck
+└── README.md                      # Project documentation
 ```
 
 ---
 
 ## ⚡ Quickstart Guide
 
-### Option A: Run Full-Stack Platform (Recommended for Demo)
+### Option A: Run Full-Stack Platform
 Double-click [`start_platform.bat`](file:///c:/Users/user/Desktop/sih/start_platform.bat) or run:
 
 ```bash
@@ -151,21 +148,6 @@ Open **`http://localhost:5000/`** in your browser.
 
 ---
 
-## 🏆 SIH Hackathon Demo Flow (Winning Pitch Script)
-
-| Step | Action to Perform | Key Point to Highlight to Judges |
-| :---: | :--- | :--- |
-| **1** | **Executive Dashboard** | Show real-time KPI metrics (Digitization rate, OCR accuracy score, blockchain block height, and village status). |
-| **2** | **Document Restoration** | Move the Before/After split slider to demonstrate how adaptive binarization cleans yellowed paper and water stains. |
-| **3** | **Multilingual OCR & Bounding Boxes** | Switch between Maharashtra 7/12, UP Khasra, and Tamil Nadu Patta. Show live multi-unit area conversions (Ha $\leftrightarrow$ Acre $\leftrightarrow$ Bigha). |
-| **4** | **Cadastral GIS Map** | Inspect Plot 84/3 on the satellite layer $\rightarrow$ reveal the critical boundary overlap alert on the village Gaothan road. |
-| **5** | **AI Validation & Anomaly Detection** | Show automated rule execution (Area reconciliation, double-allocation check, and forensic seal verification). |
-| **6** | **Blockchain Tamper Simulation** | Click **"Tamper Simulation"** in Blockchain Ledger $\rightarrow$ show judges how the cryptographic chain immediately breaks at Block #2 $\rightarrow$ click **"Restore"** to re-verify. |
-| **7** | **Verifiable Digital e-RoR** | Click **"Verify e-RoR"** to generate the official Government of India certificate with dynamic QR code verification. |
-| **8** | **Bhoomi Mitra AI** | Ask a farmer-friendly query in Hindi (*"खसरा संख्या 312/1 का क्षेत्रफल और मालिक कौन है?"*) and show the instant response. |
-
----
-
 ## 🔒 Security & Standards Compliance
 - **Digital India Land Records Modernization Programme (DILRMP)** standards.
 - **SHA-256 Cryptographic Block Ledger** for immutable audit trails.
@@ -174,8 +156,5 @@ Open **`http://localhost:5000/`** in your browser.
 
 ---
 
-## 👥 Team & Submission Details
-- **Smart India Hackathon 2026 (SIH 2026)**
-- **Problem Statement ID**: `SIH26-26018`
-- **Theme**: MedTech / BioTech / HealthTech / Land Administration
-- **Sponsoring Ministry**: Ministry of Rural Development / Department of Land Resources
+## 📄 License
+This project is licensed under the MIT License.

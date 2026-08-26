@@ -2,7 +2,7 @@ export const translations = {
   en: {
     appTitle: "BhoomiAI",
     appSubtitle: "Intelligent Land Record Digitization & Validation System",
-    ministryBadge: "Ministry of Rural Development | SIH26-26018",
+    ministryBadge: "Ministry of Rural Development",
     nav: {
       dashboard: "Dashboard",
       restoration: "Image Restoration",
@@ -97,7 +97,7 @@ export const translations = {
   hi: {
     appTitle: "भूमि AI",
     appSubtitle: "स्मार्ट भू-अभिलेख डिजिटलीकरण एवं सत्यापन प्रणाली",
-    ministryBadge: "ग्रामीण विकास मंत्रालय | SIH26-26018",
+    ministryBadge: "ग्रामीण विकास मंत्रालय",
     nav: {
       dashboard: "डैशबोर्ड",
       restoration: "दस्तावेज़ पुनर्स्थापना",
@@ -192,7 +192,7 @@ export const translations = {
   mr: {
     appTitle: "भूमी AI",
     appSubtitle: "स्मार्ट जमीन अभिलेख डिजिटलायझेशन आणि पडताळणी प्रणाली",
-    ministryBadge: "ग्रामीण विकास मंत्रालय | SIH26-26018",
+    ministryBadge: "ग्रामीण विकास मंत्रालय",
     nav: {
       dashboard: "डॅशबोर्ड",
       restoration: "दस्तऐवज सुधारणा",
@@ -287,7 +287,7 @@ export const translations = {
   ta: {
     appTitle: "பூமி AI (BhoomiAI)",
     appSubtitle: "நுண்ணறிவு நில ஆவண டிஜிட்டல்மயமாக்கல் மற்றும் சரிபார்ப்பு அமைப்பு",
-    ministryBadge: "ஊரக வளர்ச்சி அமைச்சகம் | SIH26-26018",
+    ministryBadge: "ஊரக வளர்ச்சி அமைச்சகம்",
     nav: {
       dashboard: "டாஷ்போர்டு",
       restoration: "ஆவண சீரமைப்பு",
@@ -382,7 +382,7 @@ export const translations = {
   gu: {
     appTitle: "ભૂમિ AI (BhoomiAI)",
     appSubtitle: "સ્માર્ટ જમીન રેકોર્ડ ડિજિટાઈઝેશન અને ચકાસણી સિસ્ટમ",
-    ministryBadge: "ગ્રામીણ વિકાસ મંત્રાલય | SIH26-26018",
+    ministryBadge: "ગ્રામીણ વિકાસ મંત્રાલય",
     nav: {
       dashboard: "ડેશબોર્ડ",
       restoration: "દસ્તાવેજ પુનઃસ્થાપના",
@@ -477,7 +477,7 @@ export const translations = {
   te: {
     appTitle: "భూమి AI (BhoomiAI)",
     appSubtitle: "తెలివైన భూ రికార్డుల డిజిటలైజేషన్ మరియు ధృవీకరణ వ్యవస్థ",
-    ministryBadge: "గ్రామీణాభివృద్ధి మంత్రిత్వ శాఖ | SIH26-26018",
+    ministryBadge: "గ్రామీణాభివృద్ధి మంత్రిత్వ శాఖ",
     nav: {
       dashboard: "డాష్‌బోర్డ్",
       restoration: "పత్ర పునరుద్ధరణ",

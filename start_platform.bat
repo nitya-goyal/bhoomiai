@@ -1,8 +1,7 @@
 @echo off
 echo =========================================================================
 echo   BhoomiAI - Intelligent Land Record Digitization and Validation System
-echo   SIH 2026 Problem Statement ID: SIH26-26018
-echo   Ministry of Rural Development / Department of Land Resources (DoLR)
+echo   National Land Record Modernization & AI Intelligence Platform
 echo =========================================================================
 echo.
 echo [1/2] Starting Python FastAPI Backend Server on port 8000...

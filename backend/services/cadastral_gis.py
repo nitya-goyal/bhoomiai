@@ -152,7 +152,7 @@ def get_cadastral_geojson() -> Dict[str, Any]:
 
 def compute_polygon_metrics(coords: List[List[float]]) -> Dict[str, float]:
     """
-    Computes approximate geodesic area in hectares and acres for hackathon simulation.
+    Computes approximate geodesic area in hectares and acres from polygon coordinates.
     """
     # Quick polygon area computation using Shoelace formula on lat/lon
     n = len(coords)

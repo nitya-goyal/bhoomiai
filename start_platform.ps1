@@ -1,7 +1,6 @@
 Write-Host "=========================================================================" -ForegroundColor Cyan
 Write-Host "  BhoomiAI - Intelligent Land Record Digitization and Validation System" -ForegroundColor Green
-Write-Host "  SIH 2026 Problem Statement ID: SIH26-26018" -ForegroundColor Yellow
-Write-Host "  Ministry of Rural Development / Department of Land Resources (DoLR)" -ForegroundColor White
+Write-Host "  National Land Record Modernization & AI Intelligence Platform" -ForegroundColor Yellow
 Write-Host "=========================================================================" -ForegroundColor Cyan
 Write-Host ""
 

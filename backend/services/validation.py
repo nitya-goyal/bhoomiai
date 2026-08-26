@@ -2,7 +2,7 @@ from typing import Dict, List, Any
 
 def run_multi_tier_validation(record_data: Dict[str, Any], parcel_data: Dict[str, Any] = None) -> Dict[str, Any]:
     """
-    Executes algorithmic and rule-based validation checks required by SIH26-26018:
+    Executes algorithmic and rule-based validation checks:
     1. Cross-Record Area Consistency (RoR vs Cadastral Polygon)
     2. Spatial Boundary Overlap & Encroachment
     3. Double Allocation & Title Conflict

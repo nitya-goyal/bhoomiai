@@ -125,7 +125,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <span className="font-bold text-white">BhoomiAI Platform</span>
-            <span>• SIH26-26018</span>
+            <span>• National Land Modernization Initiative</span>
             <span>• Ministry of Rural Development & Department of Land Resources</span>
           </div>
           <div className="flex items-center gap-4 text-[11px] text-slate-500">

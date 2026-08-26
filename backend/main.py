@@ -11,7 +11,7 @@ from services.blockchain import ledger_instance
 
 app = FastAPI(
     title="BhoomiAI - Intelligent Land Record Digitization and Validation API",
-    description="SIH26-26018: End-to-end AI Land Record Restoration, Indic OCR, Cadastral GIS, Anomaly Detection & Blockchain Ledger",
+    description="End-to-end AI Land Record Restoration, Indic OCR, Cadastral GIS, Anomaly Detection & Blockchain Ledger",
     version="1.0.0"
 )
 
@@ -52,7 +52,7 @@ class TamperRequest(BaseModel):
 def root():
     return {
         "status": "online",
-        "system": "BhoomiAI Platform API (SIH26-26018)",
+        "system": "BhoomiAI Enterprise Land Platform API",
         "ministry": "Ministry of Rural Development / DoLR",
         "endpoints": [
             "/api/restoration/process",
